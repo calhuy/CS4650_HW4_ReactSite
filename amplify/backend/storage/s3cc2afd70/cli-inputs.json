@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3cc2afd70",
+  "policyUUID": "cc2afd70",
+  "bucketName": "cs4650hw4reactsite2dae354eb68048619c59b23b8aceb",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
