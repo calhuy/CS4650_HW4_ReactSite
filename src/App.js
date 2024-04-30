@@ -16,8 +16,15 @@ import {
   createNote as createNoteMutation,
   deleteNote as deleteNoteMutation,
 } from "./graphql/mutations";
+
+
+import { Amplify } from "aws-amplify";
 import { generateClient } from 'aws-amplify/api';
 import { uploadData, getUrl, remove } from 'aws-amplify/storage';
+
+import awsconfig from "./amplifyconfiguration.json";
+
+Amplify.configure(awsconfig);
 
 const client = generateClient();
 
